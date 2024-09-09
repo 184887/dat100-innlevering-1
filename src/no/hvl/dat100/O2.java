@@ -15,15 +15,15 @@ public class O2 {
 
 			if (Poeng >= 0 && Poeng <= 39) {
 				Karakter = "F";
-			} else if (Poeng >= 40 && Poeng <= 49) {
+			}  if (Poeng >= 40 && Poeng <= 49) {
 				Karakter = "E";
-			} else if (Poeng >= 50 && Poeng <= 59) {
+			}  if (Poeng >= 50 && Poeng <= 59) {
 				Karakter = "D";
-			} else if (Poeng >= 60 && Poeng <= 79) {
+			}  if (Poeng >= 60 && Poeng <= 79) {
 				Karakter = "C";
-			} else if (Poeng >= 80 && Poeng <= 89) {
+			}  if (Poeng >= 80 && Poeng <= 89) {
 				Karakter = "B";
-			} else if (Poeng >= 90 && Poeng <= 100) {
+			}  if (Poeng >= 90 && Poeng <= 100) {
 				Karakter = "A";
 			} else {
 				System.out.println("Not a valid value,give another");
