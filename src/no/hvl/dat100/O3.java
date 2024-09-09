@@ -25,7 +25,7 @@ public class O3 {
 
 		BigInteger fakultet = 1;
 		for (int i = 1; i <= n; i++) {
-			fakultet *= i;
+			fakultet = fakultet.multiply(BigInteger.valueOf(i));
 			
 
 		}
