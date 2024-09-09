@@ -1,5 +1,6 @@
-package Oblig;
+package no.hvl.dat100;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class O3 {
@@ -8,7 +9,7 @@ public class O3 {
 		int n = 0;
 
 		while (true) {
-			System.out.println("Gi et posetivt heltall");
+			System.out.println("Gi et positivt heltall");
 			if (input.hasNextInt()) {
 				n = input.nextInt();
 				if (n > 0) {
@@ -22,7 +23,7 @@ public class O3 {
 			}
 		}
 
-		long fakultet = 1;
+		BigInteger fakultet = 1;
 		for (int i = 1; i <= n; i++) {
 			fakultet *= i;
 			
