@@ -1,6 +1,5 @@
 package no.hvl.dat100;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class O3 {
@@ -23,9 +22,9 @@ public class O3 {
 			}
 		}
 
-		BigInteger fakultet = 1;
+		int fakultet = 1;
 		for (int i = 1; i <= n; i++) {
-			fakultet = fakultet.multiply(BigInteger.valueOf(i));
+			fakultet = fakultet * i;
 			
 
 		}
